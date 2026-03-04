@@ -1,6 +1,6 @@
 export default function Project() {
     return (
-        <section className="bg-white py-20">
+        <section id="project" className="bg-white py-24">
             <div className="max-w-6xl mx-auto px-6">
                 <h2 className="text-3xl font-semibold mb-8">Featured Project</h2>
 

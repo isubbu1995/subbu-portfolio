@@ -1,11 +1,11 @@
 export default function Skills() {
     return (
-        <section className="py-20">
+        <section id="skills" className="py-24">
             <div className="max-w-6xl mx-auto px-6">
                 <h2 className="text-3xl font-semibold mb-10">Technical Expertise</h2>
 
                 <div className="grid md:grid-cols-3 gap-6">
-                    <div className="p-6 bg-gray-100 rounded-xl">
+                    <div className="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
                         <h3 className="font-semibold mb-3">Backend</h3>
                         <ul className="space-y-2">
                             <li>Java</li>
@@ -16,7 +16,7 @@ export default function Skills() {
                         </ul>
                     </div>
 
-                    <div className="p-6 bg-gray-100 rounded-xl">
+                    <div className="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
                         <h3 className="font-semibold mb-3">AI Integration</h3>
                         <ul className="space-y-2">
                             <li>Spring AI</li>
@@ -26,7 +26,7 @@ export default function Skills() {
                         </ul>
                     </div>
 
-                    <div className="p-6 bg-gray-100 rounded-xl">
+                    <div className="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition">
                         <h3 className="font-semibold mb-3">Observability</h3>
                         <ul className="space-y-2">
                             <li>Docker</li>
